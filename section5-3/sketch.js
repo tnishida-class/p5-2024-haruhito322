@@ -26,6 +26,11 @@ function isLeapYear(y){
 }
 
 function daysInYear(y){
+  if( isLeapYear(y)){
+    return 366;
+  } else {
+    return 365
+  }
   // BLANK[1]
 }
 
@@ -50,7 +55,8 @@ function dayOfYear(y, m, d){
 }
 
 function dayOfWeek(y, m, d){
-  // BLANK[2]
+  // BLANK[2] 2024年　11月23日 日曜日
+  if()
 }
 
 function dayOfWeekAsString(dow){
